@@ -1,0 +1,56 @@
+body{
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+}
+
+.principal{
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    border-radius: 15px;
+    padding: 15px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+#date{
+    appearance: none; /* Remove a aparência padrão do navegador */
+    -webkit-appearance: none; /* Remove a aparência padrão no Safari/Chrome */
+    -moz-appearance: none; /* Remove a aparência padrão no Firefox */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(207, 207, 207);
+}
+#date:focus{
+    outline: none;
+}
+#pesquisar{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+#pesquisar:hover{
+    background-color:aqua ;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.resultado img{
+    border-radius: 20px;
+}
+.resultado p{
+    text-align: justify;
+}
